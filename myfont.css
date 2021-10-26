@@ -1,0 +1,10 @@
+@font-face {
+    font-family: unifont;
+    font-display: swap;
+    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/unifont-14.0.01.ttf);
+}
+
+@font-face {
+    font-family: unifont-jp;
+    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/unifont_jp-14.0.01.ttf);
+}
