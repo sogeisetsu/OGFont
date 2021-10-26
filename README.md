@@ -1,18 +1,105 @@
-这是自用的web字体，字体相关的开源协议会在/credit文件夹放置。仓库中采用GPL协议。
+# OUR GREAT FONTS
 
-因为其他某些字体的开源协议不兼容GPL，将放置在另一个仓库。
+![](https://suyuesheng-biaozhun-blog-tupian.oss-cn-qingdao.aliyuncs.com/blogimg/20211026233546.JPG)
 
-# USAGE
-在css文件中加入
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+这是优秀开源字体收集仓库。面对当前严峻的版权形式，收集免费开源可商用的字体，致力于让世界更加美好，让开发者有效规避版权纠纷。本仓库所收集之字体为网络上开源字体，所选用字体的版权声明清晰明确，所收集之字体相关的开源协议会在/credit文件夹放置。
+
+## 目录
+
+- [安全](#安全)
+  - [开源字体使用注意事项](#开源字体使用注意事项)
+
+- [Background](#Background)
+- [Usage](#Usage)
+  - [本仓库所含字体名称](本仓库所含字体名称)
+- [伟大的Unicode](#伟大的Unicode)
+  - [中日韩统一表意文字](##中日韩统一表意文字)
+- [字体收录规则](#字体收录规则)
+- [徽章](#徽章)
+- [维护者](#维护者)
+- [致谢](#致谢)
+- [如何贡献](#如何贡献)
+- [LICENSE](#LICENSE)
+
+## 安全
+
+……
+
+### 开源字体使用注意事项
+
+……
+
+## Background
+
+……
+
+## Usage
+
+在`css`文件中加入
 ```css
 @import url("https://gitee.com/sogeisetsu/myfont/raw/master/myfont.css");
 ```
 
-## 字体名称
+### 本仓库所含字体名称
 
-| 英文名            | 中文名     | LICENSE                                      | 特色                                                         |
-| ----------------- | ---------- | -------------------------------------------- | ------------------------------------------------------------ |
-| unifont           |            | GNU General Public License version 2         | 点阵正黑，包含中日韩统一表音文字、拉丁字母、数字和符号等，覆盖unicode较全 |
-| unifont-jp        |            | GNU General Public License version 2         | 点阵正黑，包含中日韩统一表音文字、拉丁字母、数字和符号等，覆盖unicode较全。汉字是日文汉字风格。 |
-| WenQuanYi Zen Hei | 文泉驿正黑 | GPL v2 license with font embedding exception | 诸多Linux发行版默认中文字体，字体偏小时会模糊发虚。建议当中文标题使用。 |
+英文名和中文名具是字体文件中所声明的官方名称，只要字体所包含的汉字包含了大部分中日韩表意文字，即在汉字一栏以`CJK`标注。
+
+| 英文名              | 中文名     | LICENSE                                      | 特色                                                         | 汉字 | 英文字母 |
+| ------------------- | ---------- | -------------------------------------------- | ------------------------------------------------------------ | ---- | -------- |
+| `unifont`           |            | GNU General Public License version 2         | 点阵正黑，覆盖`unicode`较全。适合生僻字和像素风格。          | CJK  | ✔        |
+| `unifont-jp`        |            | GNU General Public License version 2         | 点阵正黑，覆盖`unicode`较全。适合生僻字和像素风格。汉字是日文汉字风格。 | CJK  | ✔        |
+| `WenQuanYi Zen Hei` | 文泉驿正黑 | GPL v2 license with font embedding exception | 诸多Linux发行版默认中文字体，字体偏小时会模糊发虚。建议当中文标题使用。 | CJK  | ✔        |
+
+## 伟大的Unicode
+
+……
+
+[ttf ttc otf otc 这些字体究竟有什么区别？ - OttoLi 的胡言乱语](https://www.ottoli.cn/study/fonts#wei_tu_he_shi_liang_tu)
+
+[字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志 (ruanyifeng.com)](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
+
+### 中日韩统一表意文字
+
+……
+
+[中日韩统一表意文字 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/中日韓統一表意文字)
+
+## 字体收录规则
+
+![](https://suyuesheng-biaozhun-blog-tupian.oss-cn-qingdao.aliyuncs.com/blogimg/20211026235738.JPG)
+
+## 徽章
+
+**如果您的作品使用的字体全部都被本仓库收录，推荐您将下列徽章之一添加到您的作品。**
+
+![Our Great Fonts: open source fonts (shields.io)](https://img.shields.io/badge/Our Great Fonts-open source fonts-green)![Our Great Fonts: 采用开源字体 (shields.io)](https://img.shields.io/badge/Our Great Fonts-采用开源字体-green)
+
+复制以下代码到你的网址，让访问者知道你使用的是优秀的可商用开源字体。
+
+```html
+<a href="https://gitee.com/sogeisetsu/myfont">
+<img alt="Our Great Fonts" style="border-width:0" src="https://img.shields.io/badge/Our%20Great%20Fonts-%E9%87%87%E7%94%A8%E5%BC%80%E6%BA%90%E5%AD%97%E4%BD%93-green" />
+</a><br>
+本作品所使用字体为<a href="https://gitee.com/sogeisetsu/myfont">免费可商用字体</a>
+```
+
+## 维护者
+
+……
+
+## 致谢
+
+……
+
+## 如何贡献
+
+……
+
+## LICENSE
+
+[GPL-3.0](https://gitee.com/sogeisetsu/myfont/blob/master/LICENSE) © 2021 苏月晟。
+
+
 
