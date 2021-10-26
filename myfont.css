@@ -8,3 +8,8 @@
     font-family: unifont-jp;
     src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/unifont_jp-14.0.01.ttf);
 }
+
+@font-face {
+    font-family: "WenQuanYi Zen Hei";
+    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/wqy-zenhei.ttc);
+}
