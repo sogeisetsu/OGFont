@@ -13,7 +13,7 @@
 
 - [Background](#Background)
 - [Usage](#Usage)
-  - [本仓库所含字体名称](本仓库所含字体名称)
+  - [本仓库所含字体名称](##本仓库所含字体名称)
 - [伟大的Unicode](#伟大的Unicode)
   - [中日韩统一表意文字](##中日韩统一表意文字)
 - [字体收录规则](#字体收录规则)
@@ -37,10 +37,26 @@
 
 ## Usage
 
-在`css`文件中加入
-```css
-@import url("https://gitee.com/sogeisetsu/myfont/raw/master/myfont.css");
-```
+~~在`css`文件中加入~~，因为访问`raw.gitee`的时候会面临返回的`content-type`为`text/plain`。所以在前端文件中引入`raw.gitee`的文件链接会失效。目前有效的解决办法有这么几个：
+
+1. 开通`gitee page`然后通过访问`gitee page`内的文件链接可以解决这个问题。目前本仓库还没有开通`gitee page`的打算。需要使用的朋友可以fork本仓库进行开通`gitee pages`来调用`css`文件。
+2. 使用服务器厂商提供的对象存储服务，这个一般是收费的。
+
+我目前的方案是使用阿里云的`oss`服务，大家可以调用我托管在阿里云`oss`的`css`文件。
+
+- ==失效方式==
+
+  ```css
+  @import url("https://gitee.com/sogeisetsu/myfont/raw/master/myfont.css");
+  ```
+
+- ==有效方式==
+
+  ```css
+  @import url("https://suyuesheng-biaozhun-blog-tupian.oss-cn-qingdao.aliyuncs.com/font/font.css");
+  ```
+
+  
 
 ### 本仓库所含字体名称
 
@@ -74,7 +90,8 @@
 
 **如果您的作品使用的字体全部都被本仓库收录，推荐您将下列徽章之一添加到您的作品。**
 
-![Our Great Fonts: open source fonts (shields.io)](https://img.shields.io/badge/Our Great Fonts-open source fonts-green)![Our Great Fonts: 采用开源字体 (shields.io)](https://img.shields.io/badge/Our Great Fonts-采用开源字体-green)
+![Our Great Fonts: open source fonts (shields.io)](https://img.shields.io/badge/Our Great Fonts-open source fonts-green)
+![Our Great Fonts: 采用开源字体 (shields.io)](https://img.shields.io/badge/Our Great Fonts-采用开源字体-green)
 
 复制以下代码到你的网址，让访问者知道你使用的是优秀的可商用开源字体。
 
