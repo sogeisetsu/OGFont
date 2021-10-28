@@ -122,7 +122,7 @@
 
 ## LICENSE
 
-[GPL-3.0](https://gitee.com/sogeisetsu/myfont/blob/master/LICENSE) © 2021 苏月晟。
+[GPL-3.0](https://github.com/sogeisetsu/OGFont/blob/master/LICENSE) © 2021 苏月晟。
 
 
 
