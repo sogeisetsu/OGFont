@@ -1,19 +1,20 @@
 @font-face {
     font-family: unifont;
     font-display: swap;
-    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/unifont-14.0.01.ttf);
+    src: url(https://cdn.jsdelivr.net/gh/sogeisetsu/OGFont@0.1.0/font/unifont-14.0.01.ttf);
 }
 
 @font-face {
     font-family: unifont-jp;
-    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/unifont_jp-14.0.01.ttf);
+    src: url(https://cdn.jsdelivr.net/gh/sogeisetsu/OGFont@0.1.0/font/unifont_jp-14.0.01.ttf);
 }
 
 @font-face {
     font-family: "WenQuanYi Zen Hei";
-    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/wqy-zenhei.ttc);
+    src: url(https://cdn.jsdelivr.net/gh/sogeisetsu/OGFont@0.1.0/font/wqy-zenhei.ttc);
 }
+
 @font-face {
     font-family: "文泉驿正黑";
-    src: url(https://gitee.com/sogeisetsu/myfont/raw/master/font/wqy-zenhei.ttc);
+    src: url(https://cdn.jsdelivr.net/gh/sogeisetsu/OGFont@0.1.0/font/wqy-zenhei.ttc);
 }
