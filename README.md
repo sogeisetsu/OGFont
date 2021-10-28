@@ -13,9 +13,9 @@
 
 - [Background](#Background)
 - [Usage](#Usage)
-  - [本仓库所含字体名称](##本仓库所含字体名称)
+  - [本仓库所含字体名称](#本仓库所含字体名称)
 - [伟大的Unicode](#伟大的Unicode)
-  - [中日韩统一表意文字](##中日韩统一表意文字)
+  - [中日韩统一表意文字](#中日韩统一表意文字)
 - [字体收录规则](#字体收录规则)
 - [徽章](#徽章)
 - [维护者](#维护者)
@@ -42,18 +42,24 @@
 1. 开通`gitee page`然后通过访问`gitee page`内的文件链接可以解决这个问题。目前本仓库还没有开通`gitee page`的打算。需要使用的朋友可以fork本仓库进行开通`gitee pages`来调用`css`文件。
 2. 使用服务器厂商提供的对象存储服务，这个一般是收费的。
 
-我目前的方案是使用阿里云的`oss`服务，大家可以调用我托管在阿里云`oss`的`css`文件。
+我目前的方案~~是使用阿里云的`oss`服务，大家可以调用我托管在阿里云`oss`的`css`文件。~~是将仓库转移到GitHub，然后用[jsDelivr](https://www.jsdelivr.com/)进行国内的CDN加速。本仓库所有文件的cdn地址为[sogeisetsu/OGFont CDN by jsDelivr - A CDN for npm and GitHub](https://www.jsdelivr.com/package/gh/sogeisetsu/OGFont)。
 
-- ==失效方式==
+- *失效方式*
 
   ```css
   @import url("https://gitee.com/sogeisetsu/myfont/raw/master/myfont.css");
   ```
 
-- ==有效方式==
+- 有效方式（停止支持）
 
   ```css
   @import url("https://suyuesheng-biaozhun-blog-tupian.oss-cn-qingdao.aliyuncs.com/font/font.css");
+  ```
+
+- 有效方式（推荐）
+
+  ```css
+  @import url("https://cdn.jsdelivr.net/gh/sogeisetsu/OGFont@0.1.0/myfont.min.css");
   ```
 
   
