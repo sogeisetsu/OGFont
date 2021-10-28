@@ -90,8 +90,8 @@
 
 **如果您的作品使用的字体全部都被本仓库收录，推荐您将下列徽章之一添加到您的作品。**
 
-![Our Great Fonts: open source fonts (shields.io)](https://img.shields.io/badge/Our Great Fonts-open source fonts-green)
-![Our Great Fonts: 采用开源字体 (shields.io)](https://img.shields.io/badge/Our Great Fonts-采用开源字体-green)
+![Our Great Fonts: open source fonts (shields.io)](https://img.shields.io/badge/Our%20Great%20Fonts-open%20source%20fonts-green)
+![Our Great Fonts: 采用开源字体 (shields.io)](https://img.shields.io/badge/Our%20Great%20Fonts-%E9%87%87%E7%94%A8%E5%BC%80%E6%BA%90%E5%AD%97%E4%BD%93-green)
 
 复制以下代码到你的网址，让访问者知道你使用的是优秀的可商用开源字体。
 
